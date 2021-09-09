@@ -22,7 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
   list(setmatrix=setmatrix,getmatrix=getmatrix,setinverse=setinverse,getinverse=getinverse)
 }
 
-
+## Function 2
 ## This function completes the fuction above. We enter the list saved from above as an argument, d. 
 ## It returns the matrix inverse as defined from above if it exists, or if the value is NULL, 
 ## it calculates the inverse using solve(), sets it to mx, inputs its value into the list from 
