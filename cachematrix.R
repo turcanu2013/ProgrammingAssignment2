@@ -1,5 +1,5 @@
 ## These functions take an argument x, a matrix, and return its inverse. The first function takes x 
-## as an argument and outputs a list that we save in the global environment. The second function take 
+## as an argument and outputs a list that we save in the global environment. The second function takes 
 ## the list as an argument and retrieves elements from the list to either return or calculate the 
 ## inverse of the matrix entered in the first function.
 
@@ -23,7 +23,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 ## Function 2
-## This function completes the fuction above. We enter the list saved from above as an argument, d. 
+## This function completes the function above. We enter the list saved from above as an argument, d. 
 ## It returns the matrix inverse as defined from above if it exists, or if the value is NULL, 
 ## it calculates the inverse using solve(), sets it to mx, inputs its value into the list from 
 ## function 1, and returns it.
